@@ -3,20 +3,22 @@
 robosys2018: homework2
 
 ## 概要
-脳波で動かすロボットを
+ロボットを脳波で動かすためのパッケージ
 
 ## 動画
 * URL - https://www.youtube.com/watch?v=E9WvXxnSEjY
 
 ## 使うもの
 * Raspberry Pi Mouse
-  * Raspberry Pi 3 Model B
+* Raspberry Pi 3 Model B
+ * Ubuntu 16.04
 * Mindwave Mobile
 * ROSパッケージ
   * [ryuichiueda/pimouse_ros](https://github.com/ryuichiueda/pimouse_ros)
 
 ## 使い方
-1. ROSパッケージとこのリポジトリをダウンロード
+1. ROSパッケージとこのリポジトリをRaspberry Piにダウンロード
+ * このリポジトリはPCにもダウンロード
 ```
 cd ~/catkin_ws/src
 $ git clone https://github.com/ryuichiueda/pimouse_ros.git
@@ -28,15 +30,15 @@ $ cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash
 ```
 $ roscore
 ```
-  * 別の端末で
+ * 別の端末で
 ```
-$ rosrun mindwave_ros test.py
+$ rosrun mindwave_ros send_value.py
 ```
 
 3. Raspberry Pi で以下を実行
 * .bashrcに以下を追加
 ```
-$ export ROS_MASTER_URI=http://"Raspberry Piのipaddress":11311
+$ export ROS_MASTER_URI=http://"自分のRaspberry Piのipaddress":11311
 ```
 
 ```
@@ -51,4 +53,4 @@ $ rosrun mindwave_rasp velocity.py
 
 
 ## LICENSE
-このリポジトリは GPLv3 ライセンスに基づきます。[LICENSE](https://github.com/takumo3o/robosys_device_driver/blob/master/LICENSE)をご覧ください。
+このリポジトリは BSD ライセンスに基づきます。[LICENSE](https://github.com/takumo3o/robosys_device_driver/blob/master/LICENSE)をご覧ください。
