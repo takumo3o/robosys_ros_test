@@ -3,7 +3,8 @@
 robosys2018: homework2
 
 ## 概要
-ロボットを脳波で動かすためのパッケージ
+ロボットを脳波で動かすためのパッケージです。
+Mindwave Mobileで算出されるMEDITATIONとATTENTIONの値を１０倍にし、それぞれ左右のモータに送っています。
 
 ## 動画
 * URL - https://www.youtube.com/watch?v=E9WvXxnSEjY
