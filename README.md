@@ -12,7 +12,7 @@ Mindwave Mobileで算出されるMEDITATIONとATTENTIONの値(0~100)を１０倍
 ## 使うもの
 * Raspberry Pi Mouse
 * Raspberry Pi 3 Model B
- * Ubuntu 16.04
+  * Ubuntu 16.04
 * Mindwave Mobile
 * ROSパッケージ
   * [ryuichiueda/pimouse_ros](https://github.com/ryuichiueda/pimouse_ros)
