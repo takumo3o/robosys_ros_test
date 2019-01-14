@@ -48,9 +48,6 @@ $ roslaunch pimouse_ros pimouse.launch
 ```
 $ rosrun mindwave_rasp velocity.py
 ```
-    * velocity.py or turning.py
-    
-
 
 ## LICENSE
 このリポジトリは BSD ライセンスに基づきます。[LICENSE](https://github.com/takumo3o/robosys_device_driver/blob/master/LICENSE)をご覧ください。
