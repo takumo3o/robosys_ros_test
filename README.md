@@ -7,7 +7,7 @@ robosys2018: homework2
 Mindwave Mobileで算出されるMEDITATIONとATTENTIONの値(0~100)を１０倍にし、それぞれ左右のモータに送っています。
 
 ## 動画
-* URL - https://www.youtube.com/watch?v=E9WvXxnSEjY
+* URL - https://www.youtube.com/watch?v=6mNoLFfgRZU
 
 ## 使うもの
 * Raspberry Pi Mouse
@@ -39,7 +39,7 @@ $ rosrun mindwave_ros send_value.py
 3. Raspberry Pi で以下を実行
 * .bashrcに以下を追加
 ```
-$ export ROS_MASTER_URI=http://"自分のRaspberry Piのipaddress":11311
+export ROS_MASTER_URI=http://"自分のRaspberry Piのipaddress":11311
 ```
 
 ```
