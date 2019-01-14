@@ -51,4 +51,4 @@ $ rosrun mindwave_rasp velocity.py
 ```
 
 ## LICENSE
-このリポジトリは BSD ライセンスに基づきます。[LICENSE](https://github.com/takumo3o/robosys_device_driver/blob/master/LICENSE)をご覧ください。
+このリポジトリは BSD ライセンスに基づきます。[LICENSE](https://github.com/takumo3o/robosys_ros_test/blob/master/LICENSE)をご覧ください。
